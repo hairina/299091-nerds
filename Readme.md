@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [irina hasanova](https://up.htmlacademy.ru/htmlcss/16/user/299091).
-* Наставник: [Ольга Вадясова].
+* Наставник: [Ольга Вадясова](https://htmlacademy.ru/profile/ad-ovo).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
