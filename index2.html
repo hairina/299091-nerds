@@ -30,13 +30,16 @@
   				<a class="login" href="#">КОРЗИНА</a>
   			</div>
   		</div>
-  		<h1>Магазин готовых шаблонов</h1>
+  	<h1>Магазин готовых шаблонов</h1>
   	</header>
   	<main class="container">
-  		div class="index-content">
+  		<div class="index-content"> 
   			<div class="index-content-left">
   				<h3>СТОИМОСТЬ:</h3>
-
+  				<p>от</p>
+  				<input type="text" name="price" value="" placeholder="price">
+  				<p>до</p>
+  				<input type="text" name="price" value="" placeholder="price">
   				<h3>СЕТКА:</h3>			
   				<ul class="news-preview">
   					<li>
@@ -71,10 +74,6 @@
   			<div class="user-block">
   				<a class="login" href="#">ПОКАЗАТЬ</a>
   			</div>
-  			/!--
-  			<span class="btn btn-show">ПОКАЗАТЬ</span>
-  			--!/
-
   			<div class="index-content-right">
   				<h3>СОРТИРОВАТЬ:</h3>
   				<ul>
@@ -88,14 +87,41 @@
   						<a href="#">по названию</a>
   					</li>
   				</ul>
+  				<button class="btn strelka-prew" type="button">Вверх
+  				</button>
+  				<button class="btn strelka-next" type="button">Вниз
+  				</button>
   			</div>
   		</div>
 
-  		<div>
-  			<div class="column1 column">Блок 1</div>
-  			<div class="column2 column">Блок 2</div>
+  		<div class="index-shablon">
+  			<img src="img/shablon-SEDONA.jpg" width="220" height="340" alt="shablon «SEDONA">
   		</div>
-
+  		<div class="index-shablon">
+  			<img src="img/hablon-PINK.jpg" width="220" height="340" alt="shablon «PINK»">
+  		</div>
+  		<div class="index-shablon">
+  			<img src="img/shablon-BORODINSKI.jpg" width="220" height="340" alt="shablon «BORODINSK»">
+  		</div>
+  		<div class="index-shablon">
+  			<img src="img/shablon-MISHKA.jpg" width="220" height="340" alt="shablon «MISHKA»">
+  		</div>
+  		<div class="index-shablon">
+  			<img src="img/shablon-A+.jpg" width="220" height="340" alt="shablon «A+»">
+  		</div>
+  		<div class="index-shablon">
+  			<img src="img/shablon-КВАСТ.jpg" width="220" height="340" alt="shablon «КВАСТ»">
+  		</div>
+<div id="fx">
+            <a href="#page1">1</a>
+            <a href="#page2">2</a>
+            <a href="#page3">3</a>
+            <a href="#">СЛЕДУЮЩАЯ</a>
+        </div>
+        <div class="wrp" id="page1"></div>
+        <div class="wrp" id="page2"></div>
+        <div class="wrp" id="page3"></div>
+        <div class="wrp" id="СЛЕДУЮЩАЯ"></div>
   		<div class="index-content">
   				<h2 class="index-content-title">NERDS DESIGN STUDIO</h2>
   				<p>119186, Санкт-Петербург,<br>
@@ -105,9 +131,9 @@
  				<div class="user-block">
   					<a class="login" href="#">НАПИШИТЕ НАМ</a>
   				</div>
-  			</div>
   		</div>
- </main>
+ 	</main>
+
   	<footer class="main-footer">
   		<div class="container">
  			<section class="footer-social">
