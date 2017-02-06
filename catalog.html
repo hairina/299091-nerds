@@ -38,102 +38,91 @@
   		<h1>Магазин готовых шаблонов</h1>
   	</header>
 
-  	<main class="container">
-  		<div class="index-content"> 
-  			<div class="index-content-left">
+  	
+  		<div class="form-left">
+  		   <div>
+          <h5>СТОИМОСТЬ:</h5>
+  				  <p>от</p>
+  				  <input type="text" name="price" value="" placeholder="0"/>
+  				  <p>до</p>
+  				  <input type="text" name="price" value="" placeholder="15 000"/>
   				
-  			<h5>СТОИМОСТЬ:</h5>
-  				<p>от</p>
-  				<input type="text" name="price" value="" placeholder="0"/>
-  				<p>до</p>
-  				<input type="text" name="price" value="" placeholder="15 000"/>
-  				
-  			<h5>СЕТКА:</h5>			
-  				<ul class="news-preview">
-  					<li>
-  					<P>Адаптация</P>
-  					</li>
-  					<li>
-					<P>Фиксированная</P>
-					</li>
-					<li>
-					<P>Резиновая</P>
-  					</li>
-  				</ul>
-  				
-  			<h5>ОСОБЕННОСТИ:</h5>			
-  				<ul class="news-preview">
-  					<li>
-  					<P>Слайдер</P>
-  					</li>
-  					<li>
-					<P>Блок преимуществ</P>
-					</li>
-					<li>
-					<P>Новости</P>
-  					</li>
-  					<li>
-					<P>Галерея</P>
-					</li>
-					<li>
-					<P>Корзина</P>
-  					</li>
-  				</ul>
-  			</div>
-  			<div class="user-block">
-  				<a class="login" href="#">ПОКАЗАТЬ</a>
-  			</div>
-  			
-  			<div class="index-content-right">
-  				<h5>СОРТИРОВАТЬ:</h5>
-  				<ul>
-  					<li>
-  						<a href="#">по цене</a>
-  					</li>
-  					<li>
-  						<a href="#">по типу</a>
-  					</li>
-  					<li>
-  						<a href="#">по названию</a>
-  					</li>
-  				</ul>
-  				<button class="btn strelka-prew" type="button">Вверх
-  				</button>
-  				<button class="btn strelka-next" type="button">Вниз
-  				</button>
-  			</div>
-  		</div>
+  		    <h5>СЕТКА:</h5> 
+          <form name="forma1 method="post">		
+  				  <input type="checkbox" name="frame1" value="adaptation">Адаптация<br>
+  					<input type="checkbox" name="frame2" value="fixed">Фиксированная<br>
+					  <input type="checkbox" name="frame3" value="rubber">Резиновая<br>
+  				</form>
+          
 
-  		<div class="index-shablon">
-  			<img src="img/shablon-SEDONA.jpg" width="220" height="340" alt="shablon «SEDONA»"/>
-  		</div>
-  		<div class="index-shablon">
-  			<img src="img/hablon-PINK.jpg" width="220" height="340" alt="shablon «PINK»"/>
-  		</div>
-  		<div class="index-shablon">
-  			<img src="img/shablon-BORODINSKI.jpg" width="220" height="340" alt="shablon «BORODINSK»"/>
-  		</div>
-  		<div class="index-shablon">
-  			<img src="img/shablon-MISHKA.jpg" width="220" height="340" alt="shablon «MISHKA»"/>
-  		</div>
-  		<div class="index-shablon">
-  			<img src="img/shablon-A+.jpg" width="220" height="340" alt="shablon «A+»"/>
-  		</div>
-  		<div class="index-shablon">
-  			<img src="img/shablon-КВАСТ.jpg" width="220" height="340" alt="shablon «КВАСТ»"/>
-  		</div>
+  		    <h5>ОСОБЕННОСТИ:</h5>
+          <form name="forma2 method: "get">
+            <input type="checkbox" name="feature1" value="slider">Слайдер<br>
+            <input type="checkbox" name="feature2" value="block of advantages">Блок преимуществ<br>
+            <input type="checkbox" name="feature3" value="news">Новости<br>
+            <input type="checkbox" name="feature4" value="gallery">Галерея<br>
+            <input type="checkbox" name="feature5" value="basket">Корзина<br>
+          </form>
 
-      <div id="fx">
-            <a href="#page1">1</a>
-            <a href="#page2">2</a>
-            <a href="#page3">3</a>
-            <a href="#">СЛЕДУЮЩАЯ</a>
+  			 <div class="user-block">
+  				  <a class="login" href="#">ПОКАЗАТЬ</a>
+  			 </div>
       </div>
-        <div class="wrp" id="page1"></div>
-        <div class="wrp" id="page2"></div>
-        <div class="wrp" id="page3"></div>
-        <div class="wrp" id="СЛЕДУЮЩАЯ"></div>
-  		
+    </form> 
+  	
+    <form>
+      <div class="form-right">
+  			<h5>СОРТИРОВАТЬ:</h5>
+  			<ul>
+  				<li>
+  					<a href="#">по цене</a>
+  				</li>
+  				<li>
+  					<a href="#">по типу</a>
+  				</li>
+  				<li>
+  					<a href="#">по названию</a>
+  				</li>
+  			</ul>
+  			
+        <button class="btn strelka-prew" type="button">Вверх
+  			</button>
+  			<button class="btn strelka-next" type="button">Вниз
+  			</button>
+
+  		  <div class="index-shablon">
+  			 <img src="img/shablon-SEDONA.jpg" width="220" height="340" alt="shablon «SEDONA»"/>
+  		  </div>
+
+  		  <div class="index-shablon">
+  			 <img src="img/hablon-PINK.jpg" width="220" height="340" alt="shablon «PINK»"/>
+  		  </div>
+
+  		  <div class="index-shablon">
+  			 <img src="img/shablon-BORODINSKI.jpg" width="220" height="340" alt="shablon «BORODINSK»"/>
+  		  </div>
+
+  		  <div class="index-shablon">
+  			 <img src="img/shablon-MISHKA.jpg" width="220" height="340" alt="shablon «MISHKA»"/>
+  		  </div>
+
+  		  <div class="index-shablon">
+  			 <img src="img/shablon-A+.jpg" width="220" height="340" alt="shablon «A+»"/>
+  		  </div>
+
+  		  <div class="index-shablon">
+  			  <img src="img/shablon-КВАСТ.jpg" width="220" height="340" alt="shablon «КВАСТ»"/>
+  		  </div>
+
+        <div id="fx">
+          <a href="#page1">1</a>
+          <a href="#page2">2</a>
+          <a href="#page3">3</a>
+          <a href="#">СЛЕДУЮЩАЯ</a>
+        </div>
+      </div>
+    </form>
+
 		  <div class="our-contacts">
         <div class="map"></div>
 
@@ -152,17 +141,17 @@
 
   	<footer class="main-footer">
         <div class="container">
-      <div class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </div>
+          <div class="footer-social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          </div>
 
-        <div class="footer-info">
-          <h3>Давайте дружить, это выгодно!</h3>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+          <div class="footer-info">
+            <h3>Давайте дружить, это выгодно!</h3>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
         </div>
-      </div>
       </div>
     </footer>
   </body>
