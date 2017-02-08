@@ -1,66 +1,116 @@
-h1 {	
-	font-size:55px;
-	line-height: 55px;
-	color:#000000;
-	font-weight: Medium; 
-	font-family:Roboto;
+html,
+body {
+	min-width: 1440px;
+	min-height: 2476px;
+	margin: 0;
+	padding: 0;
 }
 
-/*=======================
-MAIN-NAVIGATION
-=======================*/
-
-h2 {
- 	font-size:45px;
-	line-height: 45px;
-	color:#000000;
-	font-weight: Medium; 
-	font-family:Roboto;
+body {
+	background-color: #ffffff 
+	background-size: 1440px auto;
 }
 
-
-h3 {
-	font-size:36px;
-	line-height: 36px;
-	color:#000000;
-	font-weight: Bold; 
-	font-family:Roboto;
+.main-header {
+	min-height: 115px;
 }
 
-
-h4 {
-	font-size:24px;
-	line-height: 30px;
-	color:#000000; 	
-	font-weight: Bold;
-	font-family:Roboto;
+.container {
+	width: 1240px;
+	padding-top:  50px; 
+	min-height: 65px;
 }
 
-
-h5 {
-	font-size:18px;
-	line-height: 30px;
-	color:#000000;
-	font-weight: Bold; 
-	font-family:Roboto;
-}	
-
-
-h6 {
-	font-size:14px;
-	line-height: 18px;
-	color:#000000;
-	font-weight: Regilar; 
-	font-family:Roboto;	
+.main-navigation {
+	float: left;
+	width: 900px;
+	padding-top:  50px; 
+	min-height: 65px;
 }
 
-
-P {
-	font-size:16px;
-	line-height: 24px;
-	color:#000000; 
-	font-weight: Regular;
-	font-family:Roboto; 
+.user-block {
+	float: right;
+	width: 200px;
+	padding-top:  50px; 
+	min-height: 65px;
 }
 
+.slider-content {
+	float: left;
+	min-width: 400px;
+	min-height: 300px;
+	margin-left: 40px; /* или 140*/
+}
+
+.slider img {
+	width:700px; 
+	height: 413;
+	margin-right: 70px;
+	/*или
+	margin-right: 170px;*/
+
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 100px;
+}
+
+.features-item: last-child {
+	margin-right: 0;
+}
+
+.about-us-left {
+	float: left;
+	width: 650px;
+	min-height: 370px;
+}
+
+.about-us-right {
+	float: right;
+	width: 350px;
+	min-height: 400px;
+}
+
+.our-clients{
+	float: left;
+	width: 300px;
+	height: 180px;
+	margin-right: 0;
+}
+
+.our-contacts {
+	width: 1440px;
+	height: 420px;
+}
+
+.our-contacts-contant {
+	float: left;
+	width: 320px;
+	height: 310px;
+	margin-left: 40px;
+}
+
+.footer {
+	min-height: 217px;
+}
+
+.footer-social {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 12px;
+}
+
+.footer-social: last-child {
+	width: 80px;
+	height: 80px;
+	margin-right: 0;
+}
+
+.footer-info {
+	max-width: 600px;
+	min-height: 100px;
+}
 
