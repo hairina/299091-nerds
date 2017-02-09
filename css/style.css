@@ -8,10 +8,33 @@ body {
 	width: 1440px;
 	height: 2476px;
 	background-color: #ffffff 
-	font-family:Roboto;
-	font-size:16px;
+	line-height: 1.5;
+	font-family: "Roboto", Arial, sans-serif;
 	color: #000000;	
 }
+
+/* Headings */
+h1,h2 {
+	font-weight: medium;
+}
+
+h3,h4,h5,h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 36px;
+}
+h5,h6 {
+	font-size: 18px;
 
 .container {
 	width: 1160px;
@@ -20,9 +43,7 @@ body {
 	height: auto; 
 }
 
-/*=======================
-main-header
-=======================*/
+/*main-header*/
 
 .main-header {
 	background-color: #eeeeee;
@@ -45,9 +66,7 @@ main-header
 	min-height: 65px;
 }
 
-/*=======================
-sliderr
-=======================*/
+/*slider*/
 
 .slider-content {
 	float: left;
@@ -62,9 +81,7 @@ sliderr
 	margin-right: 70px;
 }
 
-/*=======================
-features
-=======================*/
+/*features*/
 
 .features-item {
 	float: left;
@@ -77,9 +94,31 @@ features
 	margin-right: 0;
 }
 
-/*=======================
-about-us
-=======================*/
+/*catalog*/
+
+.catalog-content-left {
+	float: left;
+	width:270px; 
+	height:auto;
+}
+
+/*gallery*/
+
+.catalog-content-right {
+	float: right;
+	width: 760px;
+	height: auto;
+	/* или height: 2225px; - ?*/
+}
+
+.gallery-item {
+  display: inline-block;
+  padding: 0;
+  width: 360px;
+  height: 615px;
+}
+
+/*about-us*/
 
 .about-us-left {
 	float: left;
@@ -95,9 +134,7 @@ about-us
 	margin: 150px 40px 0 80px;
 }
 
-/*=======================
-our-clients
-=======================*/
+/*our-clients*/
 
 .our-clients{
 	float: left;
@@ -106,9 +143,7 @@ our-clients
 	margin-right: 0;
 }
 
-/*=======================
-our-contacts
-=======================*/
+/*our-contacts*/
 
 .our-contacts {
 	width: 1440px;
@@ -122,9 +157,7 @@ our-contacts
 	margin-left: 40px;
 }
 
-/*=======================
-footer
-=======================*/
+/*footer*/
 
 .footer {
 	min-height: 217px;
@@ -147,71 +180,3 @@ footer
 	max-width: 600px;
 	min-height: 100px;
 }
-
-/*=======================
-ШРИФТЫ!!!!
-=======================*/
-
-h1 {	
-	font-size:55px;
-	line-height: 55px;
-	color:#000000;
-	font-weight: Medium; 
-	font-family:Roboto;
-}
-
-
-h2 {
- 	font-size:45px;
-	line-height: 45px;
-	color:#000000;
-	font-weight: Medium; 
-	font-family:Roboto;
-}
-
-
-h3 {
-	font-size:36px;
-	line-height: 36px;
-	color:#000000;
-	font-weight: Bold; 
-	font-family:Roboto;
-}
-
-
-h4 {
-	font-size:24px;
-	line-height: 30px;
-	color:#000000; 	
-	font-weight: Bold;
-	font-family:Roboto;
-}
-
-
-h5 {
-	font-size:18px;
-	line-height: 30px;
-	color:#000000;
-	font-weight: Bold; 
-	font-family:Roboto;
-}	
-
-
-h6 {
-	font-size:14px;
-	line-height: 18px;
-	color:#000000;
-	font-weight: Regilar; 
-	font-family:Roboto;	
-}
-
-
-P {
-	font-size:16px;
-	line-height: 24px;
-	color:#000000; 
-	font-weight: Regular;
-	font-family:Roboto; 
-}
-
-
