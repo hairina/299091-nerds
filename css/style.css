@@ -7,7 +7,7 @@ body {
 body {
 	width: 1440px;
 	height: 2476px;
-	background-color: #ffffff 
+	background-color: #ffffff; 
 	line-height: 1.5;
 	font-family: "Roboto", Arial, sans-serif;
 	color: #000000;	
@@ -52,6 +52,7 @@ h4 {
 }
 h5,h6 {
 	font-size: 18px;
+}
 
 .container {
 	width: 1160px;
