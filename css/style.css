@@ -38,7 +38,13 @@ h5,h6 {
 .container {
 	width: 1160px;
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /*main-header*/
@@ -48,6 +54,7 @@ h5,h6 {
 	width: 1440px;
 	min-height: 115px;
 	margin-left: 0;
+	margin-bottom: 85px;
 }
 
 .main-navigation {
@@ -55,6 +62,11 @@ h5,h6 {
 	width: 900px;
 	padding-top:  50px; 
 	min-height: 65px;
+	margin-right: 45px;
+}
+
+.main-navigation:last-child {
+	margin-right: 0;
 }
 
 .user-block {
@@ -64,8 +76,12 @@ h5,h6 {
 	min-height: 65px;
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 /*slider*/
-
 .slider-content {
 	float: left;
 	width: 400px;
@@ -81,42 +97,22 @@ h5,h6 {
 
 /*features*/
 
-.features-item {
-	float: left;
-	width: 300px;
-	min-height: 347px;
-	margin: 0 80px 100px 80px;
+.features-item { 
+	float: left; 
+	width: 300px; 
+	min-height: 350px; 
+	margin-right: 100px;
+	margin-bottom: 85px;  
 }
 
-.features-item: last-child {
+.features-item:last-child {
 	margin-right: 0;
 }
 
-/*catalog*/
-
-.catalog-content-left {
-	float: left;
-	width:270px; 
-	height:auto;
-}
-
-/*gallery*/
-
-.catalog-content-right {
-	float: right;
-	width: 760px;
-	height: auto;
-	/* или height: 2225px; - ?*/
-}
-
-.gallery-item {
-  display: inline-block;
-  padding: 0;
-  width: 360px;
-  height: 615px;
-}
-
 /*about-us*/
+.about-us {
+	margin-bottom: 185px;
+}
 
 .about-us-left {
 	float: left;
@@ -129,19 +125,54 @@ h5,h6 {
 	float: right;
 	width: 350px;
 	min-height: 400px;
-	margin: 150px 40px 0 80px;
 }
 
 /*our-clients*/
 
+/*features-item { 
+	float: left; 
+	width: 300px; 
+	min-height: 350px; 
+	margin-right: 100px;
+	margin-bottom: 85px;  
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}*/
+
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .our-clients{
 	float: left;
-	width: 300px;
+	width: 250px;
 	height: 180px;
+	margin-right: 50px;
+	margin-bottom: 85px;
+}
+
+.our-clients:last-child {
 	margin-right: 0;
 }
 
+
 /*our-contacts*/
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.our-contacts {
+	margin-bottom: 85px;
+}
+
 
 .our-contacts {
 	width: 1440px;
@@ -157,22 +188,17 @@ h5,h6 {
 
 /*footer*/
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
 .footer {
 	min-height: 217px;
 }
 
-.footer-social {
-	float: left;
-	width: 80px;
-	height: 80px;
-	margin-right: 12px;
-}
-
-.footer-social: last-child {
-	width: 80px;
-	height: 80px;
-	margin-right: 0;
-}
 
 .footer-info {
 	max-width: 600px;
