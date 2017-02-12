@@ -36,7 +36,7 @@ h5,h6 {
 }
 
 .container {
-	padding-top:  50px;
+	padding-top: 50px;
 	width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,45 +52,53 @@ h5,h6 {
 
 .main-header {
 	background-color: #eeeeee;
-	width: 1440px;
+	width: 100%;
 	min-height: 115px;
 	margin-left: 0;
-	margin-bottom: 85px;
+}
+
+.header-logo {
+	float: left;
+	width: 180px;
+	min-height: 100px;
+	margin-right: 180px;
 }
 
 .main-navigation {
-	float: left;
-	width: 900px;
-	min-height: 65px;
+	margin-bottom: 25px;
 }
 
-.main-navigation:last-child {
-	margin-right: 0;
+.block1, .block2, .block3 {
+	float: left;
+	margin-right: 50px;
+	min-height: 100px;
+}
+
+.block4:last-child {
+	float: left;
+	width: 85px;
+	margin-right: 0px;
 }
 
 .user-block {
 	float: right;
-	width: 200px;
-	padding-top:  50px; 
-	min-height: 65px;
+	width: 180px;
+	margin-left: 50;
 }
 
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}
 /*slider*/
-.slider-content {
+
+.slider {
 	float: left;
-	width: 400px;
-	min-height: 300px;
-	margin-left: 0; 
+	width: 390px;
+	height: auto;
+	margin-right: 50px; 
+	margin-bottom: 25px;
 }
 
 .slider-img {
 	float: right;
-	width:700px; 
+	width: 600px; 
 	height: 413;
 	margin-right: 70px;
 }
@@ -110,41 +118,65 @@ h5,h6 {
 }
 
 /*about-us*/
-.about-us {
-	margin-bottom: 185px;
+
+.container-about-us {
+	
 }
 
 .about-us-left {
 	float: left;
 	width: 650px;
 	min-height: 370px;
-	margin: 0 80px 150px 77px;
+	margin-bottom: 80px; 
 }
 
 .about-us-right {
 	float: right;
 	width: 350px;
-	min-height: 400px;
+	min-height: 410px;
 }
 
-.clearfix::after {
-	content: "";
+.table{
 	display: table;
-	clear: both;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	padding: 0;
+	border-spacing: 5px;
 }
 
-/*our-clients*/
+.row {
+	display: table-row;
+}
 
-.our-clients{
+.cell {
+	display: table-cell;
+}
+
+/* our-clients */
+
+.our-clients {
 	float: left;
-	width: 250px;
-	height: 180px;
-	margin-right: 50px;
+	min-height: 180px;
+	margin-left: 40px;
 	margin-bottom: 85px;
 }
 
-.our-clients:last-child {
-	margin-right: 0;
+.column-1,
+.column-2 {
+	float: left;
+	width: 200px;
+	margin-right: 100px;
+}
+
+.column-3 {
+	float: left;
+	width: 190px;
+	margin-right: 120px;
+}
+
+.column-4 {
+	float: right;
+	margin-right: : 0;
 }
 
 .clearfix::after {
@@ -155,38 +187,47 @@ h5,h6 {
 
 /*our-contacts*/
 
-.our-contacts {
+.container-our-contacts {
+	display: inline-block;
+	width: 1440px;
+	height: 420px;
+	margin-right: 1px;
 	margin-bottom: 85px;
 }
 
-
-.our-contacts {
-	width: 1440px;
-	height: 420px;
+.map {
+	background-position: 0 -100 50%;
+	background-repeat: no-repeat center;
+	background: url("/img/img-map.jpg") 
+	margin-top: -80px;
+	
 }
 
-.our-contacts-contant {
+.our-contacts-info {
 	float: left;
 	width: 320px;
 	height: 310px;
 	margin-left: 40px;
 }
 
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}
 
 /*footer*/
 
-
 .footer {
-	min-height: 217px;
+	min-height: auto;
 }
 
+.container-footer {
+	float: left;
+}
+
+.social-btn {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 12px;
+}
 
 .footer-info {
-	max-width: 600px;
-	min-height: 100px;
+	float: right;
 }
